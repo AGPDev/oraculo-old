@@ -1,0 +1,55 @@
+# IntervalSyncCompanies é o intervalo padrão para atualizar a lista de empresas do Movidesk
+# Padrão é "0 6 * * 1-5"
+IntervalSyncCompanies = "0 6 * * 1-5"
+
+# IntervalSyncProjects é o intervalo padrão para atualizar a lista de projetos do Gitlab
+# Padrão é "0 7,12,18 * * 1-5"
+IntervalSyncProjects = "0 7,12,18 * * 1-5"
+
+# IntervalSyncProjectsCompanies é o intervalo padrão para sincronizar os projetos com as empresas
+# Padrão é "15 7,12,18 * * 1-5"
+IntervalSyncProjectsCompanies = "15 7,12,18 * * 1-5"
+
+# IntervalSyncJobs é o intervalo padrão para sincronizar os jobs dos projetos
+# Padrão é "*/10 7-19 * * 1-5"
+IntervalSyncJobs = "*/10 7-19 * * 1-5"
+
+# IntervalSyncDumps é o intervalo padrão para sincronizar os dumps dos jobs
+# Padrão é "*/5 7-19 * * 1-5"
+IntervalSyncDumps = "*/5 7-19 * * 1-5"
+
+# IntervalSyncTickets é o intervalo padrão para atualizar os tickets novos
+# Padrão é "*/19 6-18 * * 1-5"
+IntervalSyncTickets = "*/19 6-18 * * 1-5"
+
+# IntervalSyncFolder é o intervalo padrão para atualizar as pastas de download do dia
+# Padrão é "0 0 * * 1-5"
+IntervalSyncFolder = "0 0 * * 1-5"
+
+# IntervalSyncDownloads é o intervalo padrão para baixar os dumps
+# Padrão é "*/5 7-19 * * 1-5".
+IntervalSyncDownloads = "*/5 7-19 * * 1-5"
+
+# IntervalClearToday é o intervalo padrão para limpar a pasta today
+# Padrão é "*/5 7-19 * * 1-5"
+IntervalClearToday = "0 4 * * 1-5"
+
+# BasePath é o caminho abosoluto ou relativo de onde serão armazenados os repositórios
+# Padrão é "."
+BasePath = "www"
+
+# GitlabToken deve ser informado o token de acesso Gitlab.
+# Padrão é "" DEVE SER INFORMADO O TOKEM DE UMA CONTA COM ACESSO AOS REPOSITÓRIOS DESEJADOS
+GitlabToken = ""
+
+# MovideskUrl URL de acesso a API
+# Padrão é "https://api.movidesk.com/public/v1"
+MovideskUrl = "https://api.movidesk.com/public/v1"
+
+# MovideskToken token de acesso ao Movidesk.
+# Padrão é "" DEVE SER INFORMADO O TOKEM PARA LISTAR OS CHAMADOS
+MovideskToken = ""
+
+# MovideskDebug exibe as informações detalhadas das Requests da API
+# Padrão é "false"
+MovideskDebug = false
